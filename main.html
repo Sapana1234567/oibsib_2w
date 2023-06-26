@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin: 0;
+            padding: 0;
+            background-image: linear-gradient(rgb(0, 0, 0),rgb(68, 10, 70));
+            color:white;
+        }
+        
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        h1 {
+            margin: 0;
+            
+        }
+        
+        nav {
+            background-image:linear-gradient(56,rgb(173, 14, 75),black);
+            padding: 10px;
+            text-align: center;
+            color: bisque;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        nav ul li {
+            display: inline-block;
+            margin: 0 10px;
+            font-size: 20px;
+        }
+        
+        h2{
+            text-align: center;
+        }
+
+        section {
+            padding: 30px;
+            font-size: 20px;
+            padding: 12px;
+        }
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .image-with-text {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        
+        .image-with-text img {
+            max-width: 100%;
+            height: 300px;
+        }
+        
+        .image-with-text .text {
+            flex: 1;
+            text-align: center;
+        }
+        
+    </style>
+    <script>
+        window.addEventListener('DOMContentLoaded', (event) => {
+            // Smooth scrolling effect for anchor links
+            const scroll = new SmoothScroll('a[href*="#"]', {
+                speed: 800
+            });
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Portfolio</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="image-with-text">
+            <img src="myphoto.jpg" alt="Image">
+            <div class="text">
+                <h3>I'm</h3><br>
+                <h2>Sapana Nitin Kharche</h2>
+                <h3>Frontend Developer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque odit dolor, hic explicabo fugiat dolorem labore nulla tempora id molestias dolore ipsam voluptates nostrum eaque harum deleniti quae qui delectus sapiente. Magni facilis illum placeat. Odio porro voluptates at suscipit culpa ad nemo nam odit minus alias voluptas, eum harum neque iste, corporis voluptatem! Hic obcaecati consectetur necessitatibus deleniti cupiditate.</p>
+
+            </div>
+        </div>
+        
+    </section>
+    
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="container">
+        <dl>
+            <dt>Oasis Infobyte Java Development Internship</dt>
+            <dd>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate, porro dolore explicabo nam cumque ipsum odio molestias optio accusantium eveniet ducimus quis a modi quam corporis. Quidem, quia? Laudantium sint sequi architecto nulla, inventore veniam dicta voluptatum molestias harum recusandae?</dd>
+            <br><br>
+            <dt>PHN Machine Learning & Data Science Internship</dt>
+            <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus rerum hic iure doloribus! Quas debitis sapiente voluptatem vel! Esse itaque earum maxime, dolore sunt excepturi quibusdam iure a dignissimos blanditiis. Cumque officiis aspernatur blanditiis at praesentium, ipsum eum similique ducimus.</dd>
+
+        </dl>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <dl>
+            <dt>Hospital Management System</dt>
+            <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus corrupti, animi, aliquam ducimus id odit inventore sint neque earum tenetur est magnam suscipit aperiam autem quam! Eius, optio, asperiores rem minima officiis reiciendis, quaerat excepturi rerum non magnam dignissimos possimus? Eum eos facere maxime alias culpa consectetur nam, corrupti qui. Et ipsum molestiae officiis explicabo libero sit ad, consequuntur ipsam, doloribus nostrum, quam aliquam repudiandae voluptas modi est? Accusamus, eius.</dd>
+            <br><br><dt>Number Guessing Game</dt>
+            <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus corrupti, animi, aliquam ducimus id odit inventore sint neque earum tenetur est magnam suscipit aperiam autem quam! Eius, optio, asperiores rem minima officiis reiciendis, quaerat excepturi rerum non magnam dignissimos possimus? Eum eos facere maxime alias culpa consectetur nam, corrupti qui. Et ipsum molestiae officiis explicabo libero sit ad, consequuntur ipsam, doloribus nostrum, quam aliquam repudiandae voluptas modi est? Accusamus, eius.</dd>
+            <br><br>
+            <dt>Sorting Visualiser</dt>
+            <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus corrupti, animi, aliquam ducimus id odit inventore sint neque earum tenetur est magnam suscipit aperiam autem quam! Eius, optio, asperiores rem minima officiis reiciendis, quaerat excepturi rerum non magnam dignissimos possimus? Eum eos facere maxime alias culpa consectetur nam, corrupti qui. Et ipsum molestiae officiis explicabo libero sit ad, consequuntur ipsam, doloribus nostrum, quam aliquam repudiandae voluptas modi est? Accusamus, eius.</dd>
+            
+        </dl>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Mobile No. : 9867656464</p><br>
+        <p>Email id : sapanakharche@gmail.com</p><br>
+        <p>Linkedin Profile : https://www.linkedin.com/in/sapana-kharche-9291101b4</p><br>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/smooth-scroll/dist/smooth-scroll.min.js"></script>
+</body>
+</html>
